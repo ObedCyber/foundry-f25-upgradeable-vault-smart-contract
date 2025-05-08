@@ -34,8 +34,7 @@ This project is a **demonstration-only** smart contract system that showcases ho
 │   ├── VaultV2.sol       # Upgraded implementation
 │   └── TestToken.sol     # Test Token contract 
 ├── script/
-│   ├── DeployVaultV1AndInitialize.s.sol         # Deploys VaultV1 behind proxy
-│   ├── InitializeVaultV1.s.sol     # Initializes proxy with VaultV1 logic
+│   ├── DeployVaultV1AndInitialize.s.sol         # Deploys and Initialize VaultV1 behind proxy
 │   └── DeployAndUpgradeVaultV2.s.sol # Upgrades proxy to VaultV2
 ├── test/                 # Optional: unit tests for Vault logic
 │   ├── TestToken.t.sol         # Test Script for TestToken
